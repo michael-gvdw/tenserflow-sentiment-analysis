@@ -32,7 +32,7 @@ model = tf.keras.Sequential([
 
 model.compile(loss='binary_crossentropy', optimizer=tf.keras.optimizers.Adam(1e-4), metrics=['accuracy'])
 
-history = model.fit(train_dataset, epochs=1, validation_data=test_dataset, validation_steps=30)
+history = model.fit(train_dataset, epochs=5, validation_data=test_dataset, validation_steps=30)
 
 def pad_to_size(vec, size):
     zeros = [0]*(size-len(vec))
