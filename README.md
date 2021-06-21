@@ -34,7 +34,7 @@ The "imdb_reviews" dataset provides an encoder along with the data we can use to
 Before passing the senctence to the model for training all the sentences (inputs) need to be of same size. To achieve this a sequence of zeros will be added to the end of a sentence until it reaches the same length as the sentence with the max length.
 
 ## Modelling 
-<!-- ![](https://www.tensorflow.org/text/tutorials/images/bidirectional.png) -->
+![](https://www.tensorflow.org/text/tutorials/images/bidirectional.png)
 
 1) The model can be build as a `tf.keras.Sequential` since all layers in the model only have single input and single output. `tf.keras.Sequential` groups a linear stack of layers into a `tf.keras.Model`.
 
@@ -61,6 +61,9 @@ The model is capable of achieving 87% accuracy. Which is good given the time and
 
 ## Conclusion
 
-In summary I have succesfully created a Deep Learning Model that is capable of giving a percetage of how positive a sentence is. I am pleased with the current state of the project as I have been able to aquire basic knowledge of how the process is executed and conducted. 
+I have been able to dive into a complex topic and understand the process and actions that are taken in order to accomplish creating and training a Deep Learning Model that is capable of Sentiment Analysis on a sentence. 
 
+I have used a greate dataset of movie reviews that has been specifically created for doing sentiment analysis and a sophisticated model. This has resulted in a model with an accuracy of 87% which I consider to be very good.
+
+In future itterations I suggest more evaluation metrics to be considerated in the evalution of the model as it will give a more detailed insight of the model's performance. 
 
