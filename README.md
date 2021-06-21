@@ -6,6 +6,8 @@
 
 For the Open Program (Week 17 - Week 18) I will spend my time investigating Sentiment Analysis. Sentiment Analysis is the use of natural language processing, text analysis. computational liguistics, and biometrics to systematicaly identify, extract, quatify, and study effective states and subjective information. In essence this means to extract meaning from language with the use of a machine.
 
+I will follow the official [Tensorflow tutorial](https://www.tensorflow.org/text/tutorials/text_classification_rnn).
+
 ### Goal
 
 I will spend time investigating Sentiment Analysis in order to classify a sentence either negative, neutral or positive with the use of Deep Learing.
