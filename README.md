@@ -65,5 +65,5 @@ I have been able to dive into a complex topic and understand the process and act
 
 I have used a greate dataset of movie reviews that has been specifically created for doing sentiment analysis and a sophisticated model. This has resulted in a model with an accuracy of 87% which I consider to be very good.
 
-In future itterations I suggest more evaluation metrics to be considerated in the evalution of the model as it will give a more detailed insight of the model's performance. 
+In future itterations I suggest more evaluation metrics to be considerated in the evalution of the model as it will give a more detailed insight of the model's performance.
 
